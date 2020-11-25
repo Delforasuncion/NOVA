@@ -1,0 +1,75 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.banner-contenedor {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Imagenes/fondo banner.jpg");
+	background-size: cover;
+	background-position: center; 
+	padding: 100px 0;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-size: 50px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+}
+button {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	background-color: #4561ff;
+	padding: 15px 10px;
+	border-radius: 15px;
+	font-weight: bold;
+	border: none;
+}
+
+.contenedor-cartas{
+	text-align: center;
+	width: 1300px;
+	padding: 5px 10px 30px 10px;
+	margin: 60px auto;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.div-cartas{
+	align-items: center;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carta{
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	padding: 0 15px 15px 15px;
+	margin: 0 20px;
+	border-radius: 7px;
+	background: white;
+}
+
+.carta img{
+	width:200;
+	height: 150px;
+}
+
+footer {
+	background: #404042;
+	color: white;
+	position: fixed;
+	padding: 1px 20px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+footer p{
+	margin: 10px;
+	font-size: 15px;
+}
